@@ -8,6 +8,106 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 class="fin">hello world</h1>
+    <div class="container">
+      <div class="nav">
+        <div class="logo"><img src="images/logo.svg" alt="" /></div>
+        <div class="nav_links nav_mobile">
+          <ul class="ul_link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </div>
+        <a href="#" class="icon_nav" id="hamburger" onclick="navi()">
+          <img src="images/icon-menu.svg" alt=""
+        /></a>
+
+        <div id="menuEl" class="menu">
+          <a href="#" id="close" onclick="dis()">
+            <img src="images/icon-menu-close.svg" alt=""
+          /></a>
+
+          <ul class="menu_link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- aside -->
+      <main>
+        <div class="description">
+          <img src="images/image-web-3-desktop.jpg" alt="" />
+          <div class="describe">
+            <h1 class="header">The Bright Future of Web 3.0?</h1>
+            <div class="description-box">
+              <p class="description_text">
+                We dive into the next evolution of the web that claim to put the
+                power of the platforms back into the hands of the people. But is
+                it really fulfiling its promise?
+              </p>
+              <a href="#" class="read_text">Read more</a>
+            </div>
+          </div>
+        </div>
+        <aside>
+          <div class="aside">
+            <h2>New</h2>
+            <section class="first">
+              <h3>Hydrogen VS Electric Cars</h3>
+              <p>Will hydrogen fueled cars ever catch up to Evs?</p>
+            </section>
+            <section class="second">
+              <h3>The Downsides of AI Artistry</h3>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </section>
+            <section class="third">
+              <h3>is VC Funding Drying Up?</h3>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means
+              </p>
+            </section>
+          </div>
+        </aside>
+      </main>
+      <!-- first dropdown -->
+
+      <!-- stats -->
+      <section class="offer">
+        <div class="num_1">
+          <img src="images/image-retro-pcs.jpg" height="150rem" alt="" />
+          <div class="retro">
+            <h2>01</h2>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="num_1">
+          <img src="images/image-top-laptops.jpg" height="150rem" alt="" />
+          <div class="retro">
+            <h2>02</h2>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="num_1">
+          <img src="images/image-gaming-growth.jpg" height="150rem" alt="" />
+          <div class="retro">
+            <h2>03</h2>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh oppurtunities.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/game.js"></script>
   </body>
 </html>
