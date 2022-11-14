@@ -105,9 +105,10 @@ main {
 .read_text:visited {
   text-decoration: none;
   background-color: rgb(241, 94, 80);
-  padding: 1.5rem 2rem;
+  padding: 1.6rem 1.8rem;
   color: rgb(255, 253, 250);
-  width: 35%;
+  width: 40%;
+  text-align: center;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
